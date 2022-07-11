@@ -52,7 +52,7 @@ function getRandomInt(min, max) {
 
 class Gerador {
   constructor(lista, imagem, tipoBingo) {
-    this.max = lista.length - 1;
+    this.max = lista.length;
     this.listaBase = [];
     this.tipoBingo = tipoBingo;
     for (let item of lista) {
