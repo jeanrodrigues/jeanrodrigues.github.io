@@ -1,7 +1,7 @@
 function clickStart() {
   const listaTotal = document.querySelector("#casasBingo").value.split("\n");
   const qtdCartelas = 1;
-  const nomeBingo = "SUPERLÓGICA BINGO";
+  const nomeBingo = "SUPERLÓGICA BINGO 2023";
   const imgCartela = document.querySelector("#imgCartela").value;
   const tipoBingo = parseInt(
     document.querySelector('input[name="tipoBingo"]:checked').value
