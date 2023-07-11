@@ -190,5 +190,5 @@ document.addEventListener('contextmenu', function (event) {
 
 console.log(Object.defineProperties(new Error, {
   toString: {value() {(new Error).stack.includes('toString@') && alert('Eu sei o que você quer fazer!')}},
-  message: {get() {window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'}},
+  message: {get() {window.location.href = 'https://www.youtube.com/watch?v=-jqhw1eJVWI'}},
 }));
