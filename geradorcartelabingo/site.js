@@ -183,3 +183,12 @@ Cartela.prototype.genNode = function () {
 function toggleSelecionado(casa) {
   casa.classList.toggle("selecionado");
 }
+
+document.addEventListener('contextmenu', function (event) {
+  event.preventDefault();
+});
+
+console.log(Object.defineProperties(new Error, {
+  toString: {value() {(new Error).stack.includes('toString@') && alert('Eu sei o que você quer fazer!')}},
+  message: {get() {window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'}},
+}));
