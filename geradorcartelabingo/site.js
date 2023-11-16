@@ -190,5 +190,5 @@ document.addEventListener('contextmenu', function (event) {
 
 console.log(Object.defineProperties(new Error, {
   toString: {value() {(new Error).stack.includes('toString@') && alert('Eu sei o que você quer fazer!')}},
-  message: {get() {window.location.href = 'https://www.youtube.com/watch?v=-jqhw1eJVWI'}},
+  message: {get() {window.location.href = 'https://www.tiktok.com/@edilson3479/video/7224286802285219078?is_from_webapp=1&sender_device=pc'}},
 }));
