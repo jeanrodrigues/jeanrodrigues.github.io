@@ -1,0 +1,62 @@
+/* para deixar responsivo no mobile
+assim que eu descobrir como faze-lo! */
+@media (max-width: 767px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
+
+img {
+    position: relative;
+    margin:0px 150px;
+    margin-top:-120px;
+    height: 120px;
+}
+
+u {
+    color:#2a8146
+}
+
+.img-left {
+    float:left;
+}
+
+.img-right {
+    float:right;
+}
+
+
+.banner {
+    position: fixed;
+    width: 100%;
+    padding: 3%;
+    top: 0;
+    background-color:#33a457;
+}
+
+.content {
+    position: fixed;
+    margin-top: 7%;
+    padding:10%;
+    width: 100%;
+    color:#33a457;
+    text-align: center;
+}
+
+.white-text {
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+  }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 3%;
+    background-color: #33a457;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
